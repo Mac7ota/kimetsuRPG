@@ -1,0 +1,7 @@
+.main-corpo {
+    background-image: url(/_Imagens/_background/background3.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}

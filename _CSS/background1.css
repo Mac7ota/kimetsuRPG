@@ -1,0 +1,7 @@
+.main-base {
+    background-image: url(/_Imagens/_background/background2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}

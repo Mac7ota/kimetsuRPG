@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.main-bory {
+    background-image: url(/_Imagens/_background/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Inicio da sidebar */
+
+.logoNavBar{
+    width: 130px;
+    height: 130px;
+}
+
+.headerBtnGroup{
+    display: flex;
+    gap: 15px;
+}
+
+.header{
+    width: 100%;
+    min-height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 8px 15px;
+}
+
+.navBtn{
+    font-size: 16px;
+    padding: 6px;
+    background-color: rgba(255, 0, 0, 0.753);
+    border: 2px solid transparent;
+    color: rgba(0, 0, 0, 0.979);
+    text-decoration: none;
+    border-radius: 100px;
+    width: 130px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+    justify-content: center;
+    display: flex;
+    }
+    .logoNavBar {
+    margin-bottom: 20px;
+    }
+}
+
+
+/* Fim da sidebar */
+
+
+/* Mapa Home */
+
+.mapa {
+    justify-content: center;
+    display: flex; 
+}
+
+.mapa-container {
+    border: 2px solid rgba(0, 0, 0, 0.979);
+    background-color: rgba(255,255,255,0.5);
+    max-width:650px;
+    max-height:650px;
+    width: auto;
+    height: auto;
+    margin:40px;
+}
+
+.titulo-mapa {
+    text-align: center;
+    color:rgba(255, 255, 255) ;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.paragrafo-mapa {
+    text-align: center;
+    color:rgba(255, 255, 255) ;
+    text-shadow: 1px 1px 2px black;
+}
+
+@media screen and (max-width: 700px) {
+    .mapa-container {
+        width: 90%;
+        height: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+}
+/* Fim do mapa */
+
+/* Configuração respirações */
+
+.card-container {
+    display: flex;
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+
+}
+.logo-respiracao {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.979);
+
+}
+
+.texto-respiracoes {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.979);
+    background-color: rgba(255,255,255,0.5); 
+}
+
+.titulo-respiracoes {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.paragrafo-respiracoes {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.link-respiracoes {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.979);
+    text-align: end;
+    text-shadow: 1px 1px 2px white;
+}
+
+@media screen and (max-width: 1510px) {
+    .card-container,
+    .texto-respiracoes {
+        width: 90%;
+        height: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-container {
+        display: grid;
+        flex-direction: column;
+    }
+    .texto-respiracoes {
+        width: 90%;
+        height: 100%;
+    }
+    .logo-respiracao {
+        width: 90%;
+        height: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+       
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .card-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* Fim respirações */
+
+/* Hashiras */
+
+.main-container {
+    display: grid;
+    justify-items: center;
+
+}
+
+.hashira {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.logohashira {
+    width: 800px;
+    height: 500px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+.nome-hashira {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.descricao-hashira {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.979);
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    margin: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+@media screen and (max-width: 1230px) {
+    .logohashira {
+        width: 90%;
+        height: 90%;
+        margin-left:20px;
+        margin-right: 25px;
+    }
+    .descricao-hashira {
+        margin-left:20px;
+        margin-right: 25px;
+        width: 90%;
+    }
+}
+
+/* Fim Hashiras */
+
+
+/* Footer */
+
+footer {
+    color: rgba(255, 255, 255) ;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    text-decoration: none;
+    color: rgba(255, 255, 255) ;
+}
+ /* Fim footer */
